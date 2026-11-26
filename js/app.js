@@ -1,0 +1,1 @@
+function tab(id){document.querySelectorAll('.tabpane').forEach(e=>e.classList.remove('sel'));document.querySelectorAll('.tabs button').forEach(e=>e.classList.remove('sel'));document.getElementById(id).classList.add('sel');event.target.classList.add('sel');}
